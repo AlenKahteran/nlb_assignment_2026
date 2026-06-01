@@ -1,0 +1,18 @@
+{
+  "\"Example Group\" 2024 annual report financial report": [
+    {
+      "path": "company_report.html",
+      "title": "Example Group FY2024 Annual Report",
+      "snippet": "Official annual report with FY2024 financial metrics.",
+      "publisher": "Example Group"
+    }
+  ],
+  "\"Example Group\" FY2024 financial results annual report PDF": [
+    {
+      "path": "company_report.html",
+      "title": "Example Group FY2024 Annual Report",
+      "snippet": "Financial year 2024 results.",
+      "publisher": "Example Group"
+    }
+  ]
+}

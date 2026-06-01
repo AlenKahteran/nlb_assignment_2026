@@ -1,0 +1,1071 @@
+<!DOCTYPE html><html lang="en" data-uw-w-loader=""><head>
+	<title>Nova Ljubljanska Banka - AnnualReports.com</title>
+	<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/img/ar/favicon.ico"><link rel="stylesheet" as="style" onload="this.rel='stylesheet'" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="/css/ar/style.css" type="text/css" media="all">
+<style type="text/css">
+
+span.more {
+    display: inline-block;
+    margin-left: 12px;
+}
+span.more a {
+    color: #545454;
+    font-size: 14px;
+}
+span.more a::after {
+    content: "";
+    background: url(/img/ar/css_sprites.webp);
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-position: 0px -10px;
+    position: relative;
+    top: 1px;
+    left: 4px;
+}
+#modal_notifyme {
+    display: none;
+    background-color: white;
+    background: transparent;
+    padding: initial;
+}
+#modal_notifyme.modal_on {
+    display: block;
+}
+#modal_notifyme .checkout_form p {
+    color: black;
+    line-height: 20px;
+    margin: 1em 0;
+}
+
+#modal_notifyme .checkout_form {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.profile_section .profile_content_block .right_section .most_recent_block .most_recent_content_block .most_recent_pvw_img {
+    display: inline-block;
+    float:left;
+    min-height:210px;
+}
+.profile_section .profile_content_block .right_section .most_recent_block .most_recent_content_block .request_information_block p.success {
+    background: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.profile_section .profile_content_block .right_section .archived_report_block .archived_report_content_block ul li.last_shown {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.profile_section .profile_content_block .right_section .archived_report_block .archived_report_content_block ul li.extra_archive {
+  display: none;
+}
+.profile_section .profile_content_block .right_section .archived_report_block .archived_report_content_block ul li span.imgstub {
+  margin: 0px 13px 0px 15px;
+  max-width: 84px;
+  height: auto;
+}
+div.rating_popup {
+    position: fixed;
+    z-index: 999;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+div.rating_popup.open {
+    display: flex;
+}
+div.rating_popup > div {
+    background: white;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    border-radius: 3px;
+}
+.rating_popup .logo_popup {
+    margin-top: 24px;
+    text-align: center;
+}
+.rating_popup .logo_popup img {
+    max-width: 200px;
+}
+.rating_popup .box-content h2 {
+    width: calc(100% - 60px);
+    max-width: 550px;
+    font-family: "Libre Franklin",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.rating_popup .box-content h2 a {
+    color: #000;
+}
+.rating_popup .bottom_header {
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center;
+    text-align: center;
+    background: #fafafa;
+    padding: 24px 52px!important;
+    border-top: none!important;
+    margin-top: 1em;
+}
+.rating_popup .bottom_header .rate_this {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rating_popup .bottom_header .rate_this .topHeader h2 {
+    font-family: "Libre Franklin",sans-serif!important;
+    font-size: 18px!important;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0 auto!important;
+    width: 100%!important;
+}
+.rating_popup .bottom_header .rate_this span.txt {
+    font-size: 12px!important;
+    color: #000!important;
+    font-weight: 500!important;
+    display: inherit!important;
+    margin-top: 5px!important;
+}
+.rating_popup .bottom_header div.success_msg {
+    display: none;
+}
+.rating_popup .bottom_header div.success_msg .success {
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 4px;
+    display: block;
+}
+.rating_popup .bottom_header div.success_msg .success i {
+    background: #00cbad;
+    position: relative;
+    top: -3px;
+    color: white;
+    padding: 5px;
+    border-radius: 100px;
+}
+.rating_popup .bottom_header div.success_msg .success p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.rating_popup div.close_popup {
+    position: absolute;
+    right: 0;
+    padding-right: 4px;
+}
+.rating_popup div.close_popup a {
+    color: #000;
+}
+
+/* star rating css begin */
+.starRating {
+  text-align: left;
+  min-height: 30px;
+}
+@media (max-width: 939px) {
+  .starRating {
+    min-height: inherit;
+  }
+}
+
+.fa-star,
+.fa-star-o,
+.fa-star-half-empty {
+  color: #ffd28c;
+  margin-right: 7px;
+  font-size: 18px !important;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.fa-star.outline {
+  position: absolute;
+  left: 0px;
+  overflow: hidden;
+}
+
+.fa-star.zero {
+  width: 0%;
+}
+
+.fa-star.ten {
+  width: 27.66%;
+}
+
+.fa-star.twenty {
+  width: 33.66%;
+}
+
+.fa-star.thirty {
+  width: 39.66%;
+}
+
+.fa-star.forty {
+  width: 44.66%;
+}
+
+.fa-star.fifty {
+  width: 48.66%;
+}
+
+.fa-star.sixty {
+  width: 52.66%;
+}
+
+.fa-star.seventy {
+  width: 58.66%;
+}
+
+.fa-star.eighty {
+  width: 63.66%;
+}
+
+.fa-star.ninty {
+  width: 69.66%;
+}
+
+.fa-star.hundred {
+  width: 100%;
+}
+
+:root {
+  --star-rating-size: 40px;
+  --unchecked-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3cpath fill='%23fff' stroke='%23666' d='m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z'/%3e%3c/svg%3e");
+  --checked-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3cpath fill='orange' stroke='orange' stroke-width='2' d='m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z'/%3e%3c/svg%3e");
+  --hovered-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3cpath fill='orange' stroke='orange' stroke-width='2' d='m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z'/%3e%3c/svg%3e");
+  --max-stars: 5;
+}
+
+.star-rating {
+  width: min-content;
+  padding: 0px;
+}
+
+.star-rating > div {
+  position: relative;
+  height: var(--star-rating-size);
+  width: calc(var(--star-rating-size) * var(--max-stars));
+  background-image: var(--unchecked-image);
+  background-size: var(--star-rating-size) var(--star-rating-size);
+}
+
+.star-rating label {
+  position: absolute;
+  height: 100%;
+  background-size: var(--star-rating-size) var(--star-rating-size);
+  left: 0;
+}
+
+.star-rating label:nth-of-type(1) {
+  z-index: 10;
+  width: calc(100% / var(--max-stars) * 1);
+}
+
+.star-rating label:nth-of-type(2) {
+  z-index: 9;
+  width: calc(100% / var(--max-stars) * 2);
+}
+
+.star-rating label:nth-of-type(3) {
+  z-index: 8;
+  width: calc(100% / var(--max-stars) * 3);
+}
+
+.star-rating label:nth-of-type(4) {
+  z-index: 7;
+  width: calc(100% / var(--max-stars) * 4);
+}
+
+.star-rating label:nth-of-type(5) {
+  z-index: 6;
+  width: calc(100% / var(--max-stars) * 5);
+}
+
+.star-rating label:nth-of-type(6) {
+  z-index: 5;
+  width: calc(100% / var(--max-stars) * 6);
+}
+
+.star-rating label:nth-of-type(7) {
+  z-index: 4;
+  width: calc(100% / var(--max-stars) * 7);
+}
+
+.star-rating label:nth-of-type(8) {
+  z-index: 3;
+  width: calc(100% / var(--max-stars) * 8);
+}
+
+.star-rating label:nth-of-type(9) {
+  z-index: 2;
+  width: calc(100% / var(--max-stars) * 9);
+}
+
+.star-rating label:nth-of-type(10) {
+  z-index: 1;
+  width: calc(100% / var(--max-stars) * 10);
+}
+
+.star-rating input:checked + label,
+.star-rating input:focus + label {
+  background-image: var(--checked-image);
+}
+
+.star-rating input:checked + label:hover,
+.star-rating label:hover {
+  background-image: var(--hovered-image);
+}
+
+.star-rating > div:focus-within {
+  outline: 0.25rem solid lightblue;
+  outline: none;
+}
+
+.star-rating input,
+.star-rating label > span {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px, 1px, 1px, 1px);
+  /*maybe deprecated but we need to support legacy browsers */
+  clip-path: inset(50%);
+  /*modern browsers, clip-path works inwards from each corner*/
+  white-space: nowrap;
+  /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+}
+
+.star-value {
+  font-size: 5rem;
+  margin: 0.2rem;
+}
+
+.rate_this div.rate_popup {
+    width: 100%!important;
+    float: none!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rate_this div.star {
+    width: 100%;
+    float: none;
+    margin: 16px 0 20px!important;
+    display: flex;
+    justify-content: center;
+}
+
+.rate_this input[type=button] {
+    width: 100%!important;
+    height: 48px;
+    font-family: "Libre Franklin",sans-serif;
+    font-size: 16px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1c1259!important;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+div.agg_rating {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 3em 0px 17px 0px;
+}
+div.agg_rating div.blue_txt {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    margin-bottom: 1em;
+}
+div.agg_rating span {
+    display: inline-block;
+    padding-right: 1em;
+}
+div.agg_rating div.starIcon {
+    display: inline-block;
+}
+
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-KCM2HDFM8Y&amp;cx=c&amp;gtm=4e65r2"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-214314103-1&amp;cx=c&amp;gtm=4e65r2"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-265KX25TCT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-265KX25TCT');
+</script>
+<script type="application/ld+json">{"@context": "http://schema.org/", "@type": "Corporation", "name": "Nova Ljubljanska Banka", "aggregateRating": {"@type": "AggregateRating", "reviewCount": 61, "ratingValue": "4.7", "worstRating": "1", "bestRating": "5"}, "description": "NLB d.d. is a member of NLB Group, the leading banking and financial group with headquarters and an exclusive strategic interest in their home region \u2013 Southeast Europe (SEE).  NLB Group is comprised of nine subsidiary banks in SEE, having at the end of December 2020 completed the acquisition process of Komercijalna banka a.d. Beograd and its two subsidiaries in BIH and Montenegro, several companies for ancillary services (asset management, real estate management etc.), and a limited number of non-core subsidiaries in a controlled wind-down. NLB is a public company. ", "url": "http://www.nlb.si", "logo": {"@type": "ImageObject", "caption": "Nova Ljubljanska Banka", "contentUrl": "http://www.annualreports.com/HostedData/CompanyLogos/nova-ljubljanska-banka.png"}, "sameAs": ["https://www.facebook.com/NLBdd/", "https://www.linkedin.com/company/nlb-d-d-/"]}</script></head>
+<body>
+<div class="container" "="">
+        <header class="header">
+            <div class="left_section">
+                <div class="logo">
+                    <a href="/"><img src="/img/ar/logo.webp" alt="AnnualReports.com"></a>
+                </div>
+            </div>
+            <div id="mobile_nav">
+                <div id="toggle">
+                    <div>
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    </div>
+                    <div>Menu</div>
+                </div>
+                <div id="mb-nav" class="middle_section">
+                    <div class="mb-nav-wrapper">
+                        <div class="browseby">
+                            <a href="javascript:;">BROWSE BY</a>
+                            <ul>
+                                <li><a href="/Browse/Exchange">Exchanges</a></li>
+                                <li><a href="/Browse/Industry">Industry</a></li>
+                                <li><a href="/Search">Other Filters</a></li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <form action="/Companies" method="get">
+                            <input type="text" name="search" placeholder="Company or Ticker Symbol">
+                            <input type="submit" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_section">
+                <div class="browseby">
+                    <a href="javascript:;">BROWSE BY</a>
+                    <ul>
+                        <li><a href="/Browse/Exchange">Exchanges</a></li>
+                        <li><a href="/Browse/Industry">Industry</a></li>
+                        <li><a href="/Search">Other Filters</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form action="/Companies">
+                    <input type="text" name="search" placeholder="Company or Ticker Symbol">
+                    <input type="submit" value="Search">
+                    </form>
+                </div>
+            </div>
+            <div class="right_section">
+                <div class="cart">
+                    <div class="cart_icon">
+                        <a href="/Cart"><img src="/img/ar/cart.webp" alt=""></a>
+                    </div>
+                    <div class="count" id="cart_count">0</div>
+                </div>
+            </div>
+        </header>
+        <section class="profile_section">
+            <div class="profile_header_banner">
+                <img src="/img/ar/generic_header.webp" alt="Nova Ljubljanska Banka Banner Image">
+            </div>
+            
+            <div class="profile_content_block">
+                <div class="left_section">
+                    
+                    <div class="vendor_name">
+                        <h1 class="no_badge" style="position: relative;"><span class="textFitted textFitAlignVert" style="display: inline-block; font-size: 34px; height: 78px;">Nova Ljubljanska Banka</span></h1>
+                    </div>
+                    <div class="left_list_block">
+                        <ul>
+                            <li class="top_content_list">
+                                
+                                <div class="left">
+                                    <span class="blue_txt">Ticker</span>
+                                    <span class="ticker_name">NLB</span>
+                                </div>
+                                <div class="right">
+                                    <span class="blue_txt">Exchange</span>
+                                    LSE <span class="more"><a href="/Companies?exch=9">More</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                
+                                <span class="blue_txt">Industry</span>
+                                Financial Services <span class="more"><a href="/Companies?ind=291">More</a></span>
+                            </li>
+                            <li>
+                                
+                                <span class="blue_txt">Sector</span>
+                                Financial <span class="more"><a href="/Companies?sect=4">More</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo_block">
+                        <img src="/HostedData/CompanyLogos/nova-ljubljanska-banka.png" alt="Nova Ljubljanska Banka Logo Image">
+                    </div>
+                    <div class="left_list_block02">
+                        <ul>
+                            <li class="employees">5001-10,000 Employees</li>
+                            <li class="location">Based in Ljubljana, Slovenia</li>
+                        </ul>
+                    </div>
+                    <div class="company_description">
+                        NLB d.d. is a member of NLB Group, the leading banking and financial group with headquarters and an exclusive strategic interest in their home region – Southeast Europe (SEE).  NLB Group is comprised of nine subsidiary banks in SEE, having at the end of December 2020 completed the acquisition process of Komercijalna banka a.d. Beograd and its two subsidiaries in BIH and Montenegro, several<span>…</span><span class="more"><a href="" onclick="$(this).parent().prev('span').hide().next('span').hide().next('span').fadeIn();return false;">More</a></span><span style="display:none;"> companies for ancillary services (asset management, real estate management etc.), and a limited number of non-core subsidiaries in a controlled wind-down. NLB is a public company. </span>
+                    </div>
+                    <div class="btn_visit_website">
+                        <a href="http://www.nlb.si" onclick="$.get('/CompanyClick/w/13297');" target="_blank" rel="noopener noreferrer">Visit website</a>
+                    </div>
+                    <div class="social_media">
+                        
+                    </div>
+                    <div class="agg_rating">
+                        <div class="blue_txt">REPORT RATINGS</div><span>4.7 / 5.0 (61)</span><div class="starIcon"><i class="fa fa-star-o" aria-hidden="true"><i class="fa fa-star outline hundred" aria-hidden="true"></i></i><i class="fa fa-star-o" aria-hidden="true"><i class="fa fa-star outline hundred" aria-hidden="true"></i></i><i class="fa fa-star-o" aria-hidden="true"><i class="fa fa-star outline hundred" aria-hidden="true"></i></i><i class="fa fa-star-o" aria-hidden="true"><i class="fa fa-star outline hundred" aria-hidden="true"></i></i><i class="fa fa-star-o" aria-hidden="true"><i class="fa fa-star outline seventy" aria-hidden="true"></i></i></div><p>Nova Ljubljanska Banka reports have an aggregate usefulness score of 4.7 based on 61 reviews.</p>
+                    </div>
+                </div>
+                <div class="right_section">
+                    <div class="most_recent_block">
+                        
+                    <div class="vendor_name">
+                        <span class="heading">Nova Ljubljanska Banka</span>
+                    </div>
+                        
+                        <h2>Most Recent Annual Report</h2>
+                        <div class="most_recent_content_block">
+                                <div class="most_recent_pvw_img"><img src="/HostedData/_ar_prvw/31949.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka"></div>
+                                <span class="most_recent">MOST RECENT</span>
+                                <span class="bold_txt">2024 Annual Report</span>
+                                
+    <div class="view_btn"> 
+<a href="/Click/31949" class="btn_form_10k" onclick="window.open('/Click/31949', '_blank'); open_rating(31949, 'Nova Ljubljanska Banka 2024 Annual Report - (PDF)'); return false;" target="_blank"><span>View PDF</span></a>
+    </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sustainability_report">
+                        <div class="content_block">
+                            <div class="txt">
+                                <h2>View 2023 Sustainability Report</h2>
+                                <p><a href="https://www.responsibilityreports.com/Company/nova-ljubljanska-banka" style="color:white">This company has a Sustainability Report available to view on our partner site, ResponsibilityReports.com</a></p>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.responsibilityreports.com/Company/nova-ljubljanska-banka" title="View the latest Nova Ljubljanska Banka sustainability report"><img src="/img/ar/sustainability_report_go_icon.webp" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="archived_report_block">
+                        <h2>Older/Archived Annual Reports</h2>
+                        <div class="archived_report_content_block">
+                            <ul>
+                                <li>
+                                    <img src="/HostedData/_ara_prvw/147286.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2023 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2023.pdf" title="View 2023 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2023.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/HostedData/_ara_prvw/138510.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2022 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2022.pdf" title="View 2022 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2022.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="last_shown">
+                                    <img src="/HostedData/_ara_prvw/124977.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2021 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2021.pdf" title="View 2021 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2021.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/116929.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2020 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2020.pdf" title="View 2020 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2020.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104897.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2019 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2019.pdf" title="View 2019 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2019.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104898.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2018 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2018.pdf" title="View 2018 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2018.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104899.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2017 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2017.pdf" title="View 2017 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2017.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104900.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2016 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2016.pdf" title="View 2016 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2016.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104901.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2015 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2015.pdf" title="View 2015 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2015.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104902.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2014 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2014.pdf" title="View 2014 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2014.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104937.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2013 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2013.pdf" title="View 2013 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2013.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104938.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2012 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2012.pdf" title="View 2012 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2012.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104939.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2011 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2011.pdf" title="View 2011 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2011.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104940.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2010 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2010.pdf" title="View 2010 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2010.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104941.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2009 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2009.pdf" title="View 2009 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2009.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104942.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2008 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2008.pdf" title="View 2008 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2008.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104943.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2007 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2007.pdf" title="View 2007 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2007.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104944.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2006 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2006.pdf" title="View 2006 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2006.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104945.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2005 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2005.pdf" title="View 2005 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2005.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104946.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2004 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2004.pdf" title="View 2004 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2004.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104947.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2003 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2003.pdf" title="View 2003 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2003.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104948.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2002 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2002.pdf" title="View 2002 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2002.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104949.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2001 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2001.pdf" title="View 2001 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2001.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="extra_archive">
+                                    <img src="/HostedData/_ara_prvw/104950.webp" alt="Nova Ljubljanska Banka" title="Nova Ljubljanska Banka" width="182" style="max-height:235px;">
+                                    <div class="text_block">
+                                        <span class="heading">2000 Annual Report</span>
+                                        <span class="btn_archived view_annual_report">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2000.pdf" title="View 2000 Annual Report (PDF)" target="_blank">View Annual Report</a>
+                                        </span>
+                                        
+                                        <span class="btn_archived download">
+                                            <a href="/HostedData/AnnualReportArchive/n/LSE_NLB_2000.pdf" download="">Download</a>
+                                        </span>
+                                    </div>
+                                </li></ul>
+                        </div>
+                        <div class="show_older_reports">
+                            <a onclick="$(this).parent().hide().promise().done(function(){$('li.last_shown').removeClass('last_shown');$('.extra_archive').css('display','flex').removeClass('extra_archive');});">Show 21 older reports</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><div class="rating_popup">
+    <div>
+        <div class="close_popup"><a href="" onclick="close_rating(); return false;" title="Close">x</a></div>
+        <div class="vendor_popup_content">
+            <div class="logo_popup">
+                <img src="/HostedData/CompanyLogos/nova-ljubljanska-banka.png" alt="Nova Ljubljanska Banka Logo Image" title="Nova Ljubljanska Banka">
+            </div>
+            <div class="box-content">
+                <h2><a></a></h2>
+                <div class="bottom_header">
+                    <div class="rate_this">
+                        <div class="topHeader"><h2>Rate This Report</h2><span class="txt">Your vote helps our reports be more useful</span></div>
+                        <div class="rate_popup">
+                            <div class="star">
+                                <div class="star-rating">
+                                    <input type="hidden" name="rid" value="">
+                                    <div aria-label="rate Box testimonial"><input type="radio" name="rating" id="rating1" aria-label="star rating 1" aria-checked="false" value="1"><label for="rating1" aria-label="star rating 1" aria-checked="false"><span>1</span></label><input type="radio" name="rating" id="rating2" aria-label="star rating 2" aria-checked="false" value="2"><label for="rating2" aria-label="star rating 2" aria-checked="false"><span>2</span></label><input type="radio" name="rating" id="rating3" aria-label="star rating 3" aria-checked="false" value="3"><label for="rating3" aria-label="star rating 3" aria-checked="false"><span>3</span></label><input type="radio" name="rating" id="rating4" aria-label="star rating 4" aria-checked="false" value="4"><label for="rating4" aria-label="star rating 4" aria-checked="false"><span>4</span></label><input type="radio" name="rating" id="rating5" aria-label="star rating 5" aria-checked="false" value="5"><label for="rating5" aria-label="star rating 5" aria-checked="false"><span>5</span></label></div>
+                                </div>
+                            </div>
+                            <input type="button" value="Submit" onclick="submit_rating(); return false;">
+                        </div>
+                    </div>
+                    <div class="clsMsg"><div class="success_msg"><span class="success"><i class="fa fa-check" aria-hidden="true"></i> Rating Saved!</span><p>Thank you for your feedback!</p></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="left_section">
+        ©2003-2026 <a href="/">AnnualReports.com</a>
+    </div>
+    <div class="right_section">
+        <div class="footer_nav">
+            <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Contact">Contact</a></li>
+            <li><a href="/sendreports">Send Reports</a></li>
+            <li><a href="/FAQ">FAQs</a></li>
+            <li><a href="/Disclaimer">Legal</a></li>
+            <li><a href="https://www.irsolutions.com">Visit IR Solutions</a></li>
+            <li><a href="/AddCompany">Add My Company</a></li>
+            </ul>
+        </div>
+    </div>
+</footer></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.userway.org/widget.js" data-account="8xFc0YpAzT"></script>
+<script src="/js/ar/custom.js"></script>
+<script type="text/javascript" src="/js/textfit.js"></script>
+<script type="text/javascript">
+(function() {
+  var csrfToken = "ZmCaQ-MV-ewoWLkM5cIJYHrcmc3cVGGFhs2bU-NYWFg";
+  function attachTokenToForms() {
+    var forms = document.querySelectorAll('form[method="post"], form[method="POST"]');
+    for (var i = 0; i < forms.length; i++) {
+      var form = forms[i];
+      if (!form.querySelector('input[name="_csrf_"]')) {
+        var input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_csrf_';
+        input.value = csrfToken;
+        form.appendChild(input);
+      }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachTokenToForms);
+  } else {
+    attachTokenToForms();
+  }
+  if (window.jQuery && window.jQuery.ajaxPrefilter) {
+    window.jQuery.ajaxPrefilter(function(options, originalOptions) {
+      var method = (options.type || originalOptions.type || 'GET').toUpperCase();
+      if (method === 'GET' || method === 'HEAD' || method === 'OPTIONS') {
+        return;
+      }
+      if (typeof options.data === 'string') {
+        if (options.data.indexOf('_csrf_=') === -1) {
+          options.data += (options.data ? '&' : '') + '_csrf_=' + encodeURIComponent(csrfToken);
+        }
+      } else if (options.data && typeof options.data === 'object') {
+        if (!Object.prototype.hasOwnProperty.call(options.data, '_csrf_')) {
+          options.data._csrf_ = csrfToken;
+        }
+      } else {
+        options.data = '_csrf_=' + encodeURIComponent(csrfToken);
+      }
+    });
+  }
+})();
+</script>
+<script type="text/javascript">
+<!--
+
+const name_container = $('.vendor_name');
+const upgrade_headline = $('.upgrade_profile_section h2');
+function resize_text_to_fit(){
+    if (name_container.css('display') != 'none') {
+        textFit(name_container.find("h1"), {'alignVert':true, 'maxFontSize':34});
+    }
+    if (upgrade_headline.length) {
+        textFit(upgrade_headline, {'minFontSize':18,'multiLine':true});
+    }
+}
+$(window).resize(resize_text_to_fit);
+resize_text_to_fit();
+
+// Rating
+function open_rating(rid, title){
+    $('div.rating_popup .bottom_header .success_msg').hide();
+    $('.rating_popup input[type=button]').prop('disabled', false);
+    $('.rating_popup input[type=button]').css('cursor', 'pointer');
+    $('div.rating_popup input[name=rating]:checked').prop('checked', false);
+    $('div.rating_popup .bottom_header .rate_this').show()
+    $('div.rating_popup').addClass('open');
+    $('div.rating_popup h2 a').text(title);
+    $('div.rating_popup input[name=rid]').val(rid);
+}
+function close_rating() {
+    $('div.rating_popup').removeClass('open');
+}
+function submit_rating() {
+    $('.rating_popup input[type=button]').prop('disabled', true);
+    $('.rating_popup input[type=button]').css('cursor', 'progress');
+    const value = $('div.rating_popup input[name=rating]:checked').val();
+    if (!value) {
+        $('.rating_popup input[type=button]').prop('disabled', false);
+        $('.rating_popup input[type=button]').css('cursor', 'pointer');
+        return;
+    }
+    var data = {r: $('div.rating_popup input[name=rid]').val(), v: value, _action_: 'rate_report'}
+    $.ajax({
+        type: "POST",
+        url: window.location,
+        data: data,
+    }).done(function (d) {
+        $('.rating_popup input[type=button]').prop('disabled', false);
+        $('.rating_popup input[type=button]').css('cursor', 'pointer');
+        if (d == 'Rating saved') {
+            $('div.rating_popup .bottom_header .rate_this').hide();
+            $('div.rating_popup .bottom_header .success_msg').show();
+        }
+    });
+}
+
+//-->
+</script><style type="text/css" id="textFitStyleSheet">.textFitAlignVert{position: absolute;top: 0; right: 0; bottom: 0; left: 0;margin: auto;display: flex;justify-content: center;flex-direction: column;}.textFitAlignVertFlex{display: flex;}.textFitAlignVertFlex .textFitAlignVert{position: static;}</style>
+
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-910726-1";
+urchinTracker();
+</script>
+
+<script type="text/javascript">
+$(document).ready( function () {
+    $.get("/CompanyClick/p/13297?r="+Math.random().toString().slice(2));
+});
+</script>
+
+</body></html>
