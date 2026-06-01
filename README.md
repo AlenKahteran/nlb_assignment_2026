@@ -2,6 +2,8 @@
 
 Python CLI implementation for NLB AI engineer task. The system performs bounded public-web company research, stores collected evidence in a local SQLite knowledge base, and answers later questions from that persisted evidence with structured JSON and citations.
 
+These instructions are for linux based machines. Windows and MacOS wasn't tested, but are assumed to be working if commands are changed accordingly (for example `source .venv/bin/activate` to `.venv\Scripts\activate`)
+
 ## Setup
 
 ```bash
